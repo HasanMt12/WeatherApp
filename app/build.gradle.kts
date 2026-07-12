@@ -56,7 +56,8 @@ dependencies {
 
     // 🖼️ Image Loading (Glide)
     implementation("com.github.bumptech.glide:glide:5.0.7")
-    kapt("com.github.bumptech.glide:compiler:5.0.7") // 👈 annotationProcessor থেকে kapt করা হয়েছে
+    annotationProcessor("com.github.bumptech.glide:compiler:5.0.7")// 👈 annotationProcessor থেকে kapt করা হয়েছে
+
 
     // 🧵 Coroutines (Asynchronous Tasks)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
